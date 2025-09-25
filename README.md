@@ -22,37 +22,6 @@ The Campus Course & Records Manager (CCRM) is a comprehensive, console-based Jav
 ## Project Structure
 
 The project is organized into a standard Java package structure to ensure maintainability and separation of concerns.
-Of course. Here is a complete, professional README.md file for your project.
-
-This file is written to be clear, concise, and focused on the practical aspects of your project, which will make it look authentic and personally crafted.
-
-README.md
-Markdown
-
-# Campus Course & Records Manager (CCRM)
-
-## Introduction
-
-The Campus Course & Records Manager (CCRM) is a comprehensive, console-based Java application designed to manage student and course records for an educational institution. It provides administrators with a simple and efficient way to handle student enrollments, track academic progress, manage course offerings, and generate essential reports. The application is built with a focus on clean architecture, separating data, business logic, and user interface concerns.
-
----
-
-## Key Features
-
-* **Student Management**: Add, list, update, and deactivate student records. Student data is identified by a unique registration number.
-* **Course Management**: Add and list courses, including details like course code, title, credits, and department.
-* **Enrollment System**: Enroll students in available courses and unenroll them. The system validates against duplicate enrollments and semester credit limits.
-* **Grading System**: Record and update grades for students in the courses they are enrolled in.
-* **Transcript Generation**: Automatically calculate a student's GPA and generate a formatted academic transcript.
-* **Data Persistence**: Student, course, and enrollment data is loaded from and saved to `.csv` files, ensuring data persists between sessions.
-* **Reporting**: Generate useful administrative reports, such as listing all courses in a specific department or finding all students enrolled in a particular course. A unique report is also available to find courses with no student enrollments.
-* **Data Backup**: Create timestamped backups of all `.csv` data files to prevent data loss.
-
----
-
-## Project Structure
-
-The project is organized into a standard Java package structure to ensure maintainability and separation of concerns.
 
 CCRM3.0/
 |
